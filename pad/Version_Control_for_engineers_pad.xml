@@ -1,138 +1,80 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" ?>
 <XML_DIZ_INFO>
-  <MASTER_PAD_VERSION_INFO>
-    <MASTER_PAD_VERSION>4.0</MASTER_PAD_VERSION>
-    <MASTER_PAD_EDITOR>AppVisor 1.0.43</MASTER_PAD_EDITOR>
-    <MASTER_PAD_EDITOR_URL>http://publisher.appvisor.com</MASTER_PAD_EDITOR_URL>
-    <MASTER_PAD_INFO>Portable Application Description, or PAD(TM) 2004 Association of Software Professionals (ASP)http://www.asp-shareware.org/pad is a data set standard and specification that is commercialsoftware publishers to disseminate certified information about their software application. The PAD format is copyright of the ASP and cannot be used without the formal licensing and permission of both the Association of Software Professionals and its agent AppVisor.com.</MASTER_PAD_INFO>
-    <CERTIFIED>N</CERTIFIED>
-    <CERTIFICATE_ID></CERTIFICATE_ID>
-    <CERTIFICATE_LICENSE></CERTIFICATE_LICENSE>
-  </MASTER_PAD_VERSION_INFO>
-  <RoboSoft>
-    <Company_UIN>CMP-D1003B9914FC</Company_UIN>
-    <Product_UIN>APP-4300C4AB280D</Product_UIN>
-    <Publish_on_CD>FALSE</Publish_on_CD>
-    <NewsFeed_Search_String></NewsFeed_Search_String>
-    <Search_String>Version Control for engineers</Search_String>
-    <Press_Release_Search_String></Press_Release_Search_String>
-    <Backlink></Backlink>
-    <Comments_For_Reviewer></Comments_For_Reviewer>
-    <Search_String_Unique>Version Control for engineers</Search_String_Unique>
-    <Search_Engine_Search_String></Search_Engine_Search_String>
-    <Web_Directories_Search_String></Web_Directories_Search_String>
-    <Company_Description></Company_Description>
-  </RoboSoft>
-  <Company_Info>
-    <PublisherID>pid-8600e7924766</PublisherID>
-    <BrandID>bid-d1003b9914fc</BrandID>
-    <Company_Name>PostPDM software</Company_Name>
-    <Country>Russian Federation</Country>
-    <State_Province>SPb</State_Province>
-    <City_Town>Saint-Petersburg</City_Town>
-    <Zip_Postal_Code>194214</Zip_Postal_Code>
-    <Address_1>Engelsa 93</Address_1>
-    <Address_2></Address_2>
-    <Company_WebSite_URL>http://soft.postpdm.com</Company_WebSite_URL>
-    <Contact_Info>
-      <Contact_First_Name>Pospdpm software</Contact_First_Name>
-      <Contact_Last_Name>-</Contact_Last_Name>
-      <Contact_Email>postpdm@gmail.com</Contact_Email>
-      <Author_First_Name>Pospdpm software</Author_First_Name>
-      <Author_Last_Name>-</Author_Last_Name>
-      <Author_Email>postpdm@gmail.com</Author_Email>
-      <Contact_Phone>+7.9052327011</Contact_Phone>
-    </Contact_Info>
-    <Support_Info>
-      <Sales_Email>postpdm@gmail.com</Sales_Email>
-      <Support_Email>postpdm@gmail.com</Support_Email>
-      <General_Email>postpdm@gmail.com</General_Email>
-      <Sales_Phone>+7.9052327011</Sales_Phone>
-      <Support_Phone>+7.9052327011</Support_Phone>
-      <General_Phone>+7.9052327011</General_Phone>
-      <Fax_Phone>+7.9052327011</Fax_Phone>
-    </Support_Info>
-    <GooglePlusPage></GooglePlusPage>
-    <LinkedinPage></LinkedinPage>
-    <TwitterCompanyPage></TwitterCompanyPage>
-    <FacebookCompanyPage></FacebookCompanyPage>
-    <CompanyStorePage></CompanyStorePage>
-  </Company_Info>
-  <ASP>
-    <ASP_FORM>Y</ASP_FORM>
-    <ASP_Member>N</ASP_Member>
-    <ASP_Member_Number></ASP_Member_Number>
-  </ASP>
-  <Program_Info>
-    <AppID>app-4300c4ab280d</AppID>
-    <Program_Name>Version Control for engineers</Program_Name>
-    <Program_Version>0.4</Program_Version>
-    <Program_Release_Month>09</Program_Release_Month>
-    <Program_Release_Day>07</Program_Release_Day>
-    <Program_Release_Year>2015</Program_Release_Year>
-    <Program_Cost_Dollars>0</Program_Cost_Dollars>
-    <Program_Cost_Other_Code></Program_Cost_Other_Code>
-    <Program_Cost_Other></Program_Cost_Other>
-    <Program_Type>Freeware</Program_Type>
-    <Program_Category_Class>Graphic Apps::CAD</Program_Category_Class>
-    <Program_Specific_Category></Program_Specific_Category>
-    <Program_Categories>Business &amp; Finance :: CAD,Internet :: File Sharing Tools,Multimedia and Design :: CAD,Utilities :: Synchronization</Program_Categories>
-    <Program_Release_Status>Minor Update</Program_Release_Status>
-    <Program_Install_Support>Install and Uninstall</Program_Install_Support>
-    <Program_Target_Platform>Windows</Program_Target_Platform>
-    <Program_OS_Support>Win2000,WinXP,Win7 x32,Win7 x64,Windows 8,Windows 10,WinServer,WinOther,WinVista,WinVista x64</Program_OS_Support>
-    <Program_Language>English</Program_Language>
-    <Program_Change_Info>Fixed error with files with national characters in file name.</Program_Change_Info>
-    <Program_System_Requirements>Windows</Program_System_Requirements>
-    <Limitations>no</Limitations>
-    <Awards></Awards>
-    <File_Info>
-      <File_Size_Bytes>4708352</File_Size_Bytes>
-      <File_Size_K>4598</File_Size_K>
-      <File_Size_MB>4.49</File_Size_MB>
-    </File_Info>
-    <Expire_Info>
-      <Has_Expire_Info>N</Has_Expire_Info>
-      <Expire_Count></Expire_Count>
-      <Expire_Based_On></Expire_Based_On>
-      <Expire_Year></Expire_Year>
-      <Expire_Other_Info></Expire_Other_Info>
-      <Expire_Month></Expire_Month>
-      <Expire_Day></Expire_Day>
-    </Expire_Info>
-    <FacebookFanPage></FacebookFanPage>
-    <VideoLink1URL></VideoLink1URL>
-    <VideoLink2URL></VideoLink2URL>
-    <Includes_JAVA_VM></Includes_JAVA_VM>
-    <Includes_DirectX></Includes_DirectX>
-    <Includes_VB_Runtime></Includes_VB_Runtime>
-    <GooglePlusFanPage></GooglePlusFanPage>
-  </Program_Info>
-  <Web_Info>
-    <Application_URLs>
-      <Application_Info_URL>http://soft.postpdm.com/</Application_Info_URL>
-      <Application_Order_URL></Application_Order_URL>
-      <Application_Screenshot_URL>http://soft.postpdm.com/pad/vce_screenshot.png</Application_Screenshot_URL>
-      <Application_Icon_URL>https://cdnjs.cloudflare.com/ajax/libs/fatcow-icons/20130425/FatCow_Icons32x32/robot.png</Application_Icon_URL>
-      <Application_XML_File_URL>http://repository.appvisor.com/info/app-4300c4ab280d/Version_Control_for_engineers_pad.xml</Application_XML_File_URL>
-    </Application_URLs>
-    <Download_URLs>
-      <Primary_Download_URL>https://bitbucket.org/yncoder/naiveshark/downloads/vcs_portable_v0_4.exe</Primary_Download_URL>
-      <Secondary_Download_URL></Secondary_Download_URL>
-      <Additional_Download_URL_1></Additional_Download_URL_1>
-      <Additional_Download_URL_2></Additional_Download_URL_2>
-    </Download_URLs>
-  </Web_Info>
-  <Program_Descriptions>
-    <English>
-      <Keywords>synchronization, file sharing, project collaboration, verson control, revision control, hardware project, CAD files</Keywords>
-      <Char_Desc_45>Collaboration tool for engineers</Char_Desc_45>
-      <Char_Desc_80>Freeware Windows collaboration tool for engineers, scientist and designers</Char_Desc_80>
-      <Char_Desc_250>'Version Control for engineers' (SVN edition) is a freeware Windows collaboration tool for engineers, scientist and designers. Program give you the file revision control for your hardvare, engineering and scientific projects.</Char_Desc_250>
-      <Char_Desc_450>'Version Control for engineers' (SVN edition) is a freeware Windows collaboration tool for engineers, scientist and designers.  'Version Control for engineers' give you the file revision control for your hardvare, engineering and scientific projects.  Features:  File synchronization via LAN or Internet. Full change control. Whole project history. Merge conflict resolver. Clear Windows GUI and easy installation.</Char_Desc_450>
-      <Char_Desc_2000>'Version Control for engineers' (SVN edition) is a freeware Windows collaboration tool for engineers, scientist and designers.
+	<MASTER_PAD_VERSION_INFO>
+		<MASTER_PAD_VERSION>3.01</MASTER_PAD_VERSION>
+		<MASTER_PAD_EDITOR>PADGen 3.0.1.38 http://www.padgen.org</MASTER_PAD_EDITOR>
+		<MASTER_PAD_INFO>Portable Application Description, or PAD for short, is a data set that is used by shareware authors to disseminate information to anyone interested in their software products. To find out more go to http://www.asp-shareware.org/pad</MASTER_PAD_INFO>
+	</MASTER_PAD_VERSION_INFO>
+	<Company_Info>
+		<Company_Name>PostPDM software</Company_Name>
+		<Address_1>Engelsa 93</Address_1>
+		<Address_2 />
+		<City_Town>Saint-Petersburg</City_Town>
+		<State_Province>SPb</State_Province>
+		<Zip_Postal_Code>194214</Zip_Postal_Code>
+		<Country>Russian Federation</Country>
+		<Company_WebSite_URL>http://soft.postpdm.com</Company_WebSite_URL>
+		<Contact_Info>
+			<Author_First_Name>Pospdpm</Author_First_Name>
+			<Author_Last_Name> software</Author_Last_Name>
+			<Author_Email>postpdm@gmail.com</Author_Email>
+			<Contact_First_Name>Pospdpm</Contact_First_Name>
+			<Contact_Last_Name> software</Contact_Last_Name>
+			<Contact_Email>postpdm@gmail.com</Contact_Email>
+		</Contact_Info>
+		<Support_Info>
+			<Sales_Email>postpdm@gmail.com</Sales_Email>
+			<Support_Email>postpdm@gmail.com</Support_Email>
+			<General_Email>postpdm@gmail.com</General_Email>
+			<Sales_Phone>+7.9052327011</Sales_Phone>
+			<Support_Phone>+7.9052327011</Support_Phone>
+			<General_Phone>+7.9052327011</General_Phone>
+			<Fax_Phone>+7.9052327011</Fax_Phone>
+		</Support_Info>
+	</Company_Info>
+	<Program_Info>
+		<Program_Name>Version Control for engineers</Program_Name>
+		<Program_Version>0.11</Program_Version>
+		<Program_Release_Month>09</Program_Release_Month>
+		<Program_Release_Day>29</Program_Release_Day>
+		<Program_Release_Year>2015</Program_Release_Year>
+		<Program_Cost_Dollars>0</Program_Cost_Dollars>
+		<Program_Cost_Other_Code />
+		<Program_Cost_Other />
+		<Program_Type>Freeware</Program_Type>
+		<Program_Release_Status>Minor Update</Program_Release_Status>
+		<Program_Install_Support>Install and Uninstall</Program_Install_Support>
+		<Program_OS_Support>Windows2000,WinXP,Windows2003,Windows Vista Starter,Windows Vista Home Basic,Windows Vista Home Premium,Windows Vista Business,Windows Vista Enterprise,Windows Vista Ultimate</Program_OS_Support>
+		<Program_Language>English</Program_Language>
+		<Program_Change_Info>New StartUp master with simple connection to free GitHub demo repository</Program_Change_Info>
+		<Program_Specific_Category>Graphics</Program_Specific_Category>
+		<Program_Category_Class>Graphic Apps::CAD</Program_Category_Class>
+		<Program_System_Requirements>Windows</Program_System_Requirements>
+		<File_Info>
+			<File_Size_Bytes>7508352</File_Size_Bytes>
+			<File_Size_K>7332</File_Size_K>
+			<File_Size_MB>7.16</File_Size_MB>
+		</File_Info>
+		<Expire_Info>
+			<Has_Expire_Info>N</Has_Expire_Info>
+			<Expire_Count />
+			<Expire_Based_On />
+			<Expire_Other_Info />
+			<Expire_Month />
+			<Expire_Day />
+			<Expire_Year />
+		</Expire_Info>
+	</Program_Info>
+	<Program_Descriptions>
+		<English>
+			<Keywords>synchronization, file sharing, project collaboration, verson control, revision control, hardware project, CAD files</Keywords>
+			<Char_Desc_45>Collaboration tool for engineers</Char_Desc_45>
+			<Char_Desc_80>Freeware Windows collaboration tool for engineers, scientist and designers</Char_Desc_80>
+			<Char_Desc_250>'Version Control for engineers' (SVN edition) is a freeware Windows collaboration tool for engineers, scientist and designers. Program give you the file revision control for your hardware, engineering and scientific projects.</Char_Desc_250>
+			<Char_Desc_450>'Version Control for engineers' (SVN edition) is a freeware Windows collaboration tool for engineers, scientist and designers.  'Version Control for engineers' give you the file revision control for your hardware, engineering and scientific projects.  Features:  File synchronization via LAN or Internet. Full change control. Whole project history. Merge conflict resolver. Clear Windows GUI and easy installation.</Char_Desc_450>
+			<Char_Desc_2000>'Version Control for engineers' (SVN edition) is a freeware Windows collaboration tool for engineers, scientist and designers.
 
-'Version Control for engineers' give you the file revision control for your hardvare, engineering and scientific projects.
+'Version Control for engineers' give you the file revision control for your hardware, engineering and scientific projects.
 
 Features
 File synchronization via LAN or Internet. Full change control. Whole project history. Merge conflict resolver. Clear Windows GUI and easy installation.
@@ -142,11 +84,26 @@ File synchronization via LAN or Internet. Full change control. Whole project his
 Program supports the file, http and https connection to SVN repositories. To collaborate on your project, you need the ready SVN-repository in you LAN, Internet or cloud.
 
 With 'Version Control for engineers' you can handle file versions and revisions for most of desktop CAD/CAM systems.</Char_Desc_2000>
-    </English>
-  </Program_Descriptions>
-  <Permissions>
-    <Distribution_Permissions>Original version of `Version Control for engineers` can be freely distributed over the Internet in an unchanged form</Distribution_Permissions>
-    <EULA>LICENSE
+		</English>
+	</Program_Descriptions>
+	<Web_Info>
+		<Application_URLs>
+			<Application_Info_URL>http://soft.postpdm.com/</Application_Info_URL>
+			<Application_Order_URL />
+			<Application_Screenshot_URL>http://soft.postpdm.com/pad/vce_screenshot.png</Application_Screenshot_URL>
+			<Application_Icon_URL>http://soft.postpdm.com/pad/vc_ico.png</Application_Icon_URL>
+			<Application_XML_File_URL>http://soft.postpdm.com/pad/Version_Control_for_engineers_pad.xml</Application_XML_File_URL>
+		</Application_URLs>
+		<Download_URLs>
+			<Primary_Download_URL>https://bitbucket.org/yncoder/naiveshark/downloads/vce_setup_0.11.exe</Primary_Download_URL>
+			<Secondary_Download_URL />
+			<Additional_Download_URL_1 />
+			<Additional_Download_URL_2 />
+		</Download_URLs>
+	</Web_Info>
+	<Permissions>
+		<Distribution_Permissions>Original version of `Version Control for engineers` can be freely distributed over the Internet in an unchanged form</Distribution_Permissions>
+		<EULA>LICENSE
 =======
 
 All copyrights to Version Control for engineers are exclusively owned by
@@ -181,103 +138,116 @@ It means what you can:
 - If you do not agree with the terms of this license you must remove
   Version Control for engineers files from your storage devices 
   and cease to use the product.</EULA>
-  </Permissions>
-  <Affiliates>
-    <Affiliates_Regsoft_Order_Page></Affiliates_Regsoft_Order_Page>
-    <Affiliates_Regnow_Order_Page></Affiliates_Regnow_Order_Page>
-    <Affiliates_Regsoft_Vendor_ID></Affiliates_Regsoft_Vendor_ID>
-    <Affiliates_Regnow_Vendor_ID></Affiliates_Regnow_Vendor_ID>
-    <Affiliates_Regsoft_Product_ID></Affiliates_Regsoft_Product_ID>
-    <Affiliates_Regnow_Product_ID></Affiliates_Regnow_Product_ID>
-    <Affiliates_FORM></Affiliates_FORM>
-    <Affiliates_FORM_VER></Affiliates_FORM_VER>
-    <Affiliates_VERSION></Affiliates_VERSION>
-    <Affiliates_URL></Affiliates_URL>
-    <Affiliates_Information_Page></Affiliates_Information_Page>
-    <Affiliates_Avangate_Order_Page></Affiliates_Avangate_Order_Page>
-    <Affiliates_Avangate_Vendor_ID></Affiliates_Avangate_Vendor_ID>
-    <Affiliates_Avangate_Product_ID></Affiliates_Avangate_Product_ID>
-    <Affiliates_Avangate_Maximum_Commission_Rate></Affiliates_Avangate_Maximum_Commission_Rate>
-    <Affiliates_BMTMicro_Order_Page></Affiliates_BMTMicro_Order_Page>
-    <Affiliates_BMTMicro_Vendor_ID></Affiliates_BMTMicro_Vendor_ID>
-    <Affiliates_BMTMicro_Product_ID></Affiliates_BMTMicro_Product_ID>
-    <Affiliates_BMTMicro_Maximum_Commission_Rate></Affiliates_BMTMicro_Maximum_Commission_Rate>
-    <Affiliates_eSellerate_Order_Page></Affiliates_eSellerate_Order_Page>
-    <Affiliates_eSellerate_Vendor_ID></Affiliates_eSellerate_Vendor_ID>
-    <Affiliates_eSellerate_Product_ID></Affiliates_eSellerate_Product_ID>
-    <Affiliates_eSellerate_Maximum_Commission_Rate></Affiliates_eSellerate_Maximum_Commission_Rate>
-    <Affiliates_Kagi_Order_Page></Affiliates_Kagi_Order_Page>
-    <Affiliates_Kagi_Vendor_ID></Affiliates_Kagi_Vendor_ID>
-    <Affiliates_Kagi_Product_ID></Affiliates_Kagi_Product_ID>
-    <Affiliates_Kagi_Maximum_Commission_Rate></Affiliates_Kagi_Maximum_Commission_Rate>
-    <Affiliates_Order1_Order_Page></Affiliates_Order1_Order_Page>
-    <Affiliates_Order1_Vendor_ID></Affiliates_Order1_Vendor_ID>
-    <Affiliates_Order1_Product_ID></Affiliates_Order1_Product_ID>
-    <Affiliates_Order1_Maximum_Commission_Rate></Affiliates_Order1_Maximum_Commission_Rate>
-    <Affiliates_Regnet_Order_Page></Affiliates_Regnet_Order_Page>
-    <Affiliates_Regnet_Vendor_ID></Affiliates_Regnet_Vendor_ID>
-    <Affiliates_Regnet_Product_ID></Affiliates_Regnet_Product_ID>
-    <Affiliates_Regnet_Maximum_Commission_Rate></Affiliates_Regnet_Maximum_Commission_Rate>
-    <Affiliates_Regnow_Maximum_Commission_Rate></Affiliates_Regnow_Maximum_Commission_Rate>
-    <Affiliates_Regsoft_Maximum_Commission_Rate></Affiliates_Regsoft_Maximum_Commission_Rate>
-    <Affiliates_ShareIt_Order_Page></Affiliates_ShareIt_Order_Page>
-    <Affiliates_ShareIt_Vendor_ID></Affiliates_ShareIt_Vendor_ID>
-    <Affiliates_ShareIt_Product_ID></Affiliates_ShareIt_Product_ID>
-    <Affiliates_ShareIt_Maximum_Commission_Rate></Affiliates_ShareIt_Maximum_Commission_Rate>
-    <Affiliates_SWReg_Order_Page></Affiliates_SWReg_Order_Page>
-    <Affiliates_SWReg_Vendor_ID></Affiliates_SWReg_Vendor_ID>
-    <Affiliates_SWReg_Product_ID></Affiliates_SWReg_Product_ID>
-    <Affiliates_SWReg_Maximum_Commission_Rate></Affiliates_SWReg_Maximum_Commission_Rate>
-  </Affiliates>
-  <NewsFeed>
-    <NewsFeed_FORM></NewsFeed_FORM>
-    <NewsFeed_VERSION></NewsFeed_VERSION>
-    <NewsFeed_URL></NewsFeed_URL>
-    <NewsFeed_DESCRIPTION></NewsFeed_DESCRIPTION>
-    <NewsFeed_Feed_URL></NewsFeed_Feed_URL>
-    <NewsFeed_Type></NewsFeed_Type>
-    <NewsFeed_Site_URL></NewsFeed_Site_URL>
-    <NewsFeed_Author_First_Name>Pospdpm software</NewsFeed_Author_First_Name>
-    <NewsFeed_Author_Last_Name>-</NewsFeed_Author_Last_Name>
-    <NewsFeed_Author_Email>postpdm@gmail.com</NewsFeed_Author_Email>
-    <NewsFeed_Language></NewsFeed_Language>
-    <NewsFeed_Title></NewsFeed_Title>
-    <NewsFeed_Description_70></NewsFeed_Description_70>
-    <NewsFeed_Description_250></NewsFeed_Description_250>
-    <NewsFeed_Purpose></NewsFeed_Purpose>
-    <NewsFeed_Site_Name></NewsFeed_Site_Name>
-  </NewsFeed>
-  <Press_Release>
-    <Press_Release></Press_Release>
-    <Headline></Headline>
-    <Summary></Summary>
-    <Press_Release_Plain></Press_Release_Plain>
-  </Press_Release>
-  <Site>
-    <Site_FORM></Site_FORM>
-    <Site_VERSION></Site_VERSION>
-    <Site_URL></Site_URL>
-    <Site_DESCRIPTION></Site_DESCRIPTION>
-    <Site_Site_Title>PostPDM software -  Everyday collaboration tool for engineer</Site_Site_Title>
-    <Site_Site_URL>http://soft.postpdm.com/</Site_Site_URL>
-    <Site_Keywords>Version control, CAD files, revision control</Site_Keywords>
-    <Site_Description_100>We are develop the collaboration tool for engineers - version control system</Site_Description_100>
-    <Site_Description_250>We are develop the collaboration tool for engineers - version control system</Site_Description_250>
-    <Site_Description_450>We are develop the collaboration tool for engineers - version control system</Site_Description_450>
-    <Site_Contact_First_Name>Pospdpm software</Site_Contact_First_Name>
-    <Site_Contact_Last_Name>-</Site_Contact_Last_Name>
-    <Site_Contact_Email>postpdm@gmail.com</Site_Contact_Email>
-  </Site>
-  <Dynamic_PAD>
-    <Dynamic_Distributive>N</Dynamic_Distributive>
-    <General>
-      <DP_Pad_Enabled>TRUE</DP_Pad_Enabled>
-      <DP_AtFormFill_Enabled>TRUE</DP_AtFormFill_Enabled>
-      <DP_Distributive_Enabled>FALSE</DP_Distributive_Enabled>
-      <DP_Script_Base_URL>http://repository.appvisor.com/</DP_Script_Base_URL>
-      <DP_Pad_Mask>Version_Control_for_engineers_pad.xml</DP_Pad_Mask>
-      <DP_Distributive_Primary_URL>https://bitbucket.org/yncoder/naiveshark/downloads/vcs_portable_v0_4.exe</DP_Distributive_Primary_URL>
-      <DP_Distributive_Mask>vcs_portable_v0_4.exe</DP_Distributive_Mask>
-    </General>
-  </Dynamic_PAD>
+	</Permissions>
+	<Affiliates>
+		<Affiliates_FORM>Y</Affiliates_FORM>
+		<Affiliates_VERSION>1.4</Affiliates_VERSION>
+		<Affiliates_URL>http://www.asp-shareware.org/pad/extensions/Affiliates.htm</Affiliates_URL>
+		<Affiliates_Information_Page />
+		<Affiliates_Avangate_Order_Page />
+		<Affiliates_Avangate_Vendor_ID />
+		<Affiliates_Avangate_Product_ID />
+		<Affiliates_Avangate_Maximum_Commission_Rate />
+		<Affiliates_BMTMicro_Order_Page />
+		<Affiliates_BMTMicro_Vendor_ID />
+		<Affiliates_BMTMicro_Product_ID />
+		<Affiliates_BMTMicro_Maximum_Commission_Rate />
+		<Affiliates_Cleverbridge_Order_Page />
+		<Affiliates_Cleverbridge_Vendor_ID />
+		<Affiliates_Cleverbridge_Product_ID />
+		<Affiliates_Cleverbridge_Maximum_Commission_Rate />
+		<Affiliates_clixGalore_Order_Page />
+		<Affiliates_clixGalore_Vendor_ID />
+		<Affiliates_clixGalore_Product_ID />
+		<Affiliates_clixGalore_Maximum_Commission_Rate />
+		<Affiliates_CommissionJunction_Order_Page />
+		<Affiliates_CommissionJunction_Vendor_ID />
+		<Affiliates_CommissionJunction_Product_ID />
+		<Affiliates_CommissionJunction_Maximum_Commission_Rate />
+		<Affiliates_DigiBuy_Order_Page />
+		<Affiliates_DigiBuy_Vendor_ID />
+		<Affiliates_DigiBuy_Product_ID />
+		<Affiliates_DigiBuy_Maximum_Commission_Rate />
+		<Affiliates_DigitalCandle_Order_Page />
+		<Affiliates_DigitalCandle_Vendor_ID />
+		<Affiliates_DigitalCandle_Product_ID />
+		<Affiliates_DigitalCandle_Maximum_Commission_Rate />
+		<Affiliates_Emetrix_Order_Page />
+		<Affiliates_Emetrix_Vendor_ID />
+		<Affiliates_Emetrix_Product_ID />
+		<Affiliates_Emetrix_Maximum_Commission_Rate />
+		<Affiliates_eSellerate_Order_Page />
+		<Affiliates_eSellerate_Vendor_ID />
+		<Affiliates_eSellerate_Product_ID />
+		<Affiliates_eSellerate_Maximum_Commission_Rate />
+		<Affiliates_Kagi_Order_Page />
+		<Affiliates_Kagi_Vendor_ID />
+		<Affiliates_Kagi_Product_ID />
+		<Affiliates_Kagi_Maximum_Commission_Rate />
+		<Affiliates_LinkShare_Order_Page />
+		<Affiliates_LinkShare_Vendor_ID />
+		<Affiliates_LinkShare_Product_ID />
+		<Affiliates_LinkShare_Maximum_Commission_Rate />
+		<Affiliates_NorthStarSol_Order_Page />
+		<Affiliates_NorthStarSol_Vendor_ID />
+		<Affiliates_NorthStarSol_Product_ID />
+		<Affiliates_NorthStarSol_Maximum_Commission_Rate />
+		<Affiliates_OneNetworkDirect_Order_Page />
+		<Affiliates_OneNetworkDirect_Vendor_ID />
+		<Affiliates_OneNetworkDirect_Product_ID />
+		<Affiliates_OneNetworkDirect_Maximum_Commission_Rate />
+		<Affiliates_Order1_Order_Page />
+		<Affiliates_Order1_Vendor_ID />
+		<Affiliates_Order1_Product_ID />
+		<Affiliates_Order1_Maximum_Commission_Rate />
+		<Affiliates_Osolis_Order_Page />
+		<Affiliates_Osolis_Vendor_ID />
+		<Affiliates_Osolis_Product_ID />
+		<Affiliates_Osolis_Maximum_Commission_Rate />
+		<Affiliates_Plimus_Order_Page />
+		<Affiliates_Plimus_Vendor_ID />
+		<Affiliates_Plimus_Product_ID />
+		<Affiliates_Plimus_Maximum_Commission_Rate />
+		<Affiliates_Regnet_Order_Page />
+		<Affiliates_Regnet_Vendor_ID />
+		<Affiliates_Regnet_Product_ID />
+		<Affiliates_Regnet_Maximum_Commission_Rate />
+		<Affiliates_Regnow_Order_Page />
+		<Affiliates_Regnow_Vendor_ID />
+		<Affiliates_Regnow_Product_ID />
+		<Affiliates_Regnow_Maximum_Commission_Rate />
+		<Affiliates_Regsoft_Order_Page />
+		<Affiliates_Regsoft_Vendor_ID />
+		<Affiliates_Regsoft_Product_ID />
+		<Affiliates_Regsoft_Maximum_Commission_Rate />
+		<Affiliates_ShareIt_Order_Page />
+		<Affiliates_ShareIt_Vendor_ID />
+		<Affiliates_ShareIt_Product_ID />
+		<Affiliates_ShareIt_Maximum_Commission_Rate />
+		<Affiliates_Shareasale_Order_Page />
+		<Affiliates_Shareasale_Vendor_ID />
+		<Affiliates_Shareasale_Product_ID />
+		<Affiliates_Shareasale_Maximum_Commission_Rate />
+		<Affiliates_SWReg_Order_Page />
+		<Affiliates_SWReg_Vendor_ID />
+		<Affiliates_SWReg_Product_ID />
+		<Affiliates_SWReg_Maximum_Commission_Rate />
+		<Affiliates_V-Share_Order_Page />
+		<Affiliates_V-Share_Vendor_ID />
+		<Affiliates_V-Share_Product_ID />
+		<Affiliates_V-Share_Maximum_Commission_Rate />
+		<Affiliates_VFree_Order_Page />
+		<Affiliates_VFree_Vendor_ID />
+		<Affiliates_VFree_Product_ID />
+		<Affiliates_VFree_Maximum_Commission_Rate />
+		<Affiliates_Yaskifo_Order_Page />
+		<Affiliates_Yaskifo_Vendor_ID />
+		<Affiliates_Yaskifo_Product_ID />
+		<Affiliates_Yaskifo_Maximum_Commission_Rate />
+	</Affiliates>
+	<ASP>
+		<ASP_FORM>Y</ASP_FORM>
+		<ASP_Member>N</ASP_Member>
+		<ASP_Member_Number />
+	</ASP>
 </XML_DIZ_INFO>
