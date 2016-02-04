@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
-<title>PostPDM software | Version control</title>
+<title>Version control | PostPDM software</title>
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <link rel="stylesheet" href="css/1.css" type="text/css" media="screen,projection" />
 <link rel="stylesheet" href="css/img.css" type="text/css" media="screen,projection" />
@@ -11,201 +11,21 @@
   <h1><a href="http://soft.postpdm.com/">PostPDM software</a></h1>
   <h3>Everyday collaboration tool for engineers</h3>
   <ul id="nav">
-    <li><a href="index.html">Home - VCE</a></li>
-    <li><a href="docs.html" class="active">Documentation</a></li>
-    <li><a href="news.html">News</a></li>
-    <li><a href="visio2image.html">Visio2Image</a></li>
+  
+    <li><a href="index.html">Home - VCE</a></li>    <li><a href="docs.html" class="active">Documentation</a></li>    <li><a href="news.html">News</a></li>    <li><a href="visio2image.html">Visio2Image</a></li>
+
   </ul>
 </div>
 <div id="container">
   <div id="content">
 
-<h2><a href="#">Version Control for engineers</a></h2>
-   
-<p>&quot;Version Control for engineers&quot; (SVN edition) is a freeware Windows collaboration tool for engineers, scientist and designers.</p>
-
-<p>&quot;Version Control for engineers&quot; give you the file revision control for your hardware, engineering and scientific projects, CAD/CAM files and other binary documents.</p>
-
-<h2>Contents</h2>
-
-<ul>
-<li><a href="#How_it_works">How it works</a></li>
-<li><a href="#Where2host">Where you can host your projects</a></li>
-<li><a href="#Tested_Hosts">Online repository hosting, tested with VCE</a></li>
-<li><a href="#How_to_use">How to use</a></li>
-<li><a href="#Handle_CAD_files">Handle CAD file versions and revisions</a></li>
-<li><a href="#Image_diff">Image diff (compare for technical visuals)</a></li>
-</ul>
-
-
-<h2 id="How_it_works">How it works</h2>
-<p>&quot;Version Control for engineers&quot; is graphical user interface for SVN (Apache&trade; Subversion&reg;) version control system.</p>
-
-<p>Program supports the file, http and https connection to SVN repositories. To collaborate on your project, you need the ready SVN-repository in you LAN, Internet or cloud.</p>
-
-<h2 id="Where2host">Where you can host your projects</h2>
-
-<table>
-<tbody>
-        <tr>
-          <th>Place</th>
-          <th>Protocol</th>
-          <th>How to create</th>
-        </tr>
-        <tr>
-          <td>Your computer</td>
-          <td>file protocol</td>
-          <td>Create local svn repository (read <a href="http://subversion.apache.org/faq.html#repository">SVN Doc</a>)</td>
-        </tr>
-        <tr>
-          <td>Your LAN</td>
-          <td>file protocol</td>
-          <td>Create svn repository on LAN shared folder (read <a href="http://subversion.apache.org/faq.html#repository">SVN Doc</a>)</td>
-        </tr>
-        <tr>
-          <td>Your LAN</td>
-          <td>http or https protocol</td>
-          <td>Install some ready-to-run SVN server for your net (good example is <a href="https://en.wikipedia.org/wiki/VisualSVN_Server">VisualSVN Server</a>)</td>
-        </tr>
-        <tr>
-          <td>Internet</td>
-          <td>http or https protocol</td>
-          <td>Find free or pay hosting for your repositories. 
-          
-<ol>
-<li>Read <a href="#Tested_Hosts">Online repository hosting, tested with VCE</a>.</li>
-<li>Some review are here <a href="http://www.svnhostingcomparison.com/">svnhostingcomparison.com</a>,</li>
-<li>or try to search the Net (<a href="https://duckduckgo.com/?q=svn+free+hosting&t=ffsb">https://duckduckgo.com/?q=svn+free+hosting&t=ffsb</a>).</li>          
-</ol>
-
-          </td>
-        </tr>
-      </tbody>
-</table>
-
-<h2 id="Tested_Hosts">Online repository hosting, tested with VCE</h2>
-
-<p>With VCE you can easy set up the free repository hosted on cloud hosting like GitHub, Sourceforge, Assembla etc. These hosting are developed for programmers, but you can use it too - with VCE.</p>
-
-<blockquote>
-PostPDM software are not linked with listed hosting providers. We just announce what this service are tested with VCE software.
-</blockquote>
-    
-<h3>GitHub &quot;git to svn&quot; hosting</h3>
-
-<p>Create new project with GitHub git repository (you need the GitHub registration for do it). Use the SVN bridge HTTPS url to add the project to VCE (see <a href="https://help.github.com/articles/support-for-subversion-clients/">doc</a>).</p>
-
-<p>Your project are always public for read-only access in GitHub free plan. Private repo available only on pay plan.</p>
-
-<p>See our <a href="https://github.com/postpdm/VCE_PostPDM_demo">VCE_PostPDM_demo</a> repository for example.</p>
-
-<figure>
-<img src="img/hosting/GitHub_VCE_PostPDM_demo.png" alt="" />
-<figcaption>Screenshot - how to get the svn repository URL from GitHub hosting.</figcaption>
-</figure>
-
-<p>If you create the new repository with GitHub you need to initialize it with some file (&quot;readme.md&quot; or such) to got the HTTPS SVN url. All files should be stored in &quot;branch&quot; or &quot;trunk&quot; folder.</p>
-
-<h3>Sourceforge svn hosting</h3>
-<p>Create new project with Sourceforge svn repository (you need the Sourceforge registration for do it). Use the HTTPS url to add the project to VCE (see <a href="https://sourceforge.net/p/forge/documentation/svn/">doc</a>).</p>
-
-<p>Your project are always public for read-only access in Sourceforge. Private repo is unavailable.</p>
-
-<figure>
-<img src="img/hosting/sourceforge_demo.png" alt="" />
-<figcaption>Screenshot - how to get the svn repository URL from Sourceforge hosting.</figcaption>
-</figure>
-
-<h3>Assembla hosting</h3>
-<p>Register on <a hreg="https://www.assembla.com/">Assembla.com</a> with Free plan, create new space, choose &quot;Space with Subversion repository&quot;, got SVN url, use it in VCE with your Assembla credentials.</p>
-
-<p>Your project are private by default in Assembla free plan. You can switch it to public for free.</p>
-
-<figure>
-<img src="img/hosting/Assembla_Step_1.png" alt="" />
-<figcaption>Screenshot - name your new Assembla repository.</figcaption>
-</figure>
-
-<figure>
-<img src="img/hosting/Assembla_Step_2.png" alt="" />
-<figcaption>Screenshot - choose &quot;Space with Subversion repository&quot;</figcaption>
-</figure>
-
-<figure>
-<img src="img/hosting/Assembla_Step_3.png" alt="" />
-<figcaption>Screenshot - how to get the svn repository URL from Assembla hosting.</figcaption>
-</figure>
-
-<h3>RiouxSVN hosting</h3>
-<p>Register on <a href="https://riouxsvn.com/">RiouxSVN</a>, create the free repository.</p>
-
-<p>Your project are private by default in RiouxSVN free plan.</p>
-
-<figure>
-<img src="img/hosting/RiouxSVN_demo.png" alt="" />
-<figcaption>Screenshot - how to get the svn repository URL from Rioux hosting.</figcaption>
-</figure>
-
-
-<h2 id="How_to_use">How to use</h2>
-
-<ol>
-<li>Download, install and run the program.</li>
-<li>If you wish to connect to svn repositories, hosted in the Internet, and you are behind the proxy-server - do configuring the proxy host in &quot;Options&quot; dialog.</li>
-<li>Add new project. Type the repository url, your credentials (if needed) and where to place the working copy.</li>
-<li>After repository will checkout to selected working copy path, you can edit your project local files with any editors your prefer.</li>
-<li>When some editions complete, back to project window and observe your modifications. Use &quot;Commit&quot; command to send (publishing) all modifications <strong>to</strong> repository. Use &quot;Update&quot; command to take all modification <strong>from</strong> repository (made from other people).</li>
-<li>Use the &quot;View log&quot; (&quot;View item log&quot;) command to see whole history of committed (saved to repository) modifications for your project (or selected file).</li>
-</ol>
-
-<h2 id="Handle_CAD_files">Handle CAD file versions and revisions</h2>
-
-<p>With &quot;Version Control for engineers&quot; you can handle file versions and revisions for most of desktop CAD/CAM systems. Here some advice for you:</p>
-
-<ul>
-<li>Take care about all files of your project are stored in working copy.</li>
-<li>Do not rename the modified files with <code>_v1</code>, <code>_final</code> or some such markers in file name. VCE system will trace all modifications and store it in <i>way-back machine</i> easily, if you do not rename the files. Just commit it periodically.</li>
-<li>Use relative file paths in file links of your drawings (<code>&quot;..\assembly\parts\AA1&quot;</code> instead <code><strike>&quot;d:\work\user\project53\assembly\parts\AA1&quot;</strike></code>).</li>
-</ul>
-
-<h2 id="Image_diff">Image diff (compare for technical visuals)</h2>
-
-<p>One of the most wanted function for revision control of technical drawings - visual compare.<p>
-
-<p>VCE gives the dual and triple view of original, modified and compared image, with zoom and scroll synchronization.</p>
-
-<figure>
-<img src="img/2015-09-18 18_24_23-Diff.png" alt="" />
-<figcaption>Original and modified image (fit to window size).</figcaption>
-</figure>
-
-<figure><img src="img/2015-09-18 18_17_12-Diff compare.png" alt="" />
-<figcaption>Original, modified and compared image (fit to window size, difference is highlighted with red)</figcaption>
-</figure>
-
-<figure><img src="img/2015-09-18 18_38_20-Diff compare original size.png" alt="" />
-<figcaption>Original, modified and compared image (in original size, difference is highlighted with red)</figcaption>
-</figure>
+    <h2><a href="#">Version Control for engineers</a></h2>   <p>&quot;Version Control for engineers&quot; (SVN edition) is a freeware Windows collaboration tool for engineers, scientist and designers.</p><p>&quot;Version Control for engineers&quot; give you the file revision control for your hardware, engineering and scientific projects, CAD/CAM files and other binary documents.</p><h2>Contents</h2><ul><li><a href="#How_it_works">How it works</a></li><li><a href="#Where2host">Where you can host your projects</a></li><li><a href="#Tested_Hosts">Online repository hosting, tested with VCE</a></li><li><a href="#How_to_use">How to use</a></li><li><a href="#Handle_CAD_files">Handle CAD file versions and revisions</a></li><li><a href="#Image_diff">Image diff (compare for technical visuals)</a></li><li><a href="#Visio_diff">Image diff for MS Visio drawings</a></li></ul><h2 id="How_it_works">How it works</h2><p>&quot;Version Control for engineers&quot; is graphical user interface for SVN (Apache&trade; Subversion&reg;) version control system.</p><p>Program supports the file, http and https connection to SVN repositories. To collaborate on your project, you need the ready SVN-repository in you LAN, Internet or cloud.</p><h2 id="Where2host">Where you can host your projects</h2><table><tbody>        <tr>          <th>Place</th>          <th>Protocol</th>          <th>How to create</th>        </tr>        <tr>          <td>Your computer</td>          <td>file protocol</td>          <td>Create local svn repository (read <a href="http://subversion.apache.org/faq.html#repository">SVN Doc</a>)</td>        </tr>        <tr>          <td>Your LAN</td>          <td>file protocol</td>          <td>Create svn repository on LAN shared folder (read <a href="http://subversion.apache.org/faq.html#repository">SVN Doc</a>)</td>        </tr>        <tr>          <td>Your LAN</td>          <td>http or https protocol</td>          <td>Install some ready-to-run SVN server for your net (good example is <a href="https://en.wikipedia.org/wiki/VisualSVN_Server">VisualSVN Server</a>)</td>        </tr>        <tr>          <td>Internet</td>          <td>http or https protocol</td>          <td>Find free or pay hosting for your repositories.           <ol><li>Read <a href="#Tested_Hosts">Online repository hosting, tested with VCE</a>.</li><li>Some review are here <a href="http://www.svnhostingcomparison.com/">svnhostingcomparison.com</a>,</li><li>or try to search the Net (<a href="https://duckduckgo.com/?q=svn+free+hosting&t=ffsb">https://duckduckgo.com/?q=svn+free+hosting&t=ffsb</a>).</li>          </ol>          </td>        </tr>      </tbody></table><h2 id="Tested_Hosts">Online repository hosting, tested with VCE</h2><p>With VCE you can easy set up the free repository hosted on cloud hosting like GitHub, Sourceforge, Assembla etc. These hosting are developed for programmers, but you can use it too - with VCE.</p><blockquote>PostPDM software are not linked with listed hosting providers. We just announce what this service are tested with VCE software.</blockquote>    <h3>GitHub &quot;git to svn&quot; hosting</h3><p>Create new project with GitHub git repository (you need the GitHub registration for do it). Use the SVN bridge HTTPS url to add the project to VCE (see <a href="https://help.github.com/articles/support-for-subversion-clients/">doc</a>).</p><p>Your project are always public for read-only access in GitHub free plan. Private repo available only on pay plan.</p><p>See our <a href="https://github.com/postpdm/VCE_PostPDM_demo">VCE_PostPDM_demo</a> repository for example.</p><figure><img src="img/hosting/GitHub_VCE_PostPDM_demo.png" alt="" /><figcaption>Screenshot - how to get the svn repository URL from GitHub hosting.</figcaption></figure><p>If you create the new repository with GitHub you need to initialize it with some file (&quot;readme.md&quot; or such) to got the HTTPS SVN url. All files should be stored in &quot;branch&quot; or &quot;trunk&quot; folder.</p><h3>Sourceforge svn hosting</h3><p>Create new project with Sourceforge svn repository (you need the Sourceforge registration for do it). Use the HTTPS url to add the project to VCE (see <a href="https://sourceforge.net/p/forge/documentation/svn/">doc</a>).</p><p>Your project are always public for read-only access in Sourceforge. Private repo is unavailable.</p><figure><img src="img/hosting/sourceforge_demo.png" alt="" /><figcaption>Screenshot - how to get the svn repository URL from Sourceforge hosting.</figcaption></figure><h3>Assembla hosting</h3><p>Register on <a hreg="https://www.assembla.com/">Assembla.com</a> with Free plan, create new space, choose &quot;Space with Subversion repository&quot;, got SVN url, use it in VCE with your Assembla credentials.</p><p>Your project are private by default in Assembla free plan. You can switch it to public for free.</p><figure><img src="img/hosting/Assembla_Step_1.png" alt="" /><figcaption>Screenshot - name your new Assembla repository.</figcaption></figure><figure><img src="img/hosting/Assembla_Step_2.png" alt="" /><figcaption>Screenshot - choose &quot;Space with Subversion repository&quot;</figcaption></figure><figure><img src="img/hosting/Assembla_Step_3.png" alt="" /><figcaption>Screenshot - how to get the svn repository URL from Assembla hosting.</figcaption></figure><h3>RiouxSVN hosting</h3><p>Register on <a href="https://riouxsvn.com/">RiouxSVN</a>, create the free repository.</p><p>Your project are private by default in RiouxSVN free plan.</p><figure><img src="img/hosting/RiouxSVN_demo.png" alt="" /><figcaption>Screenshot - how to get the svn repository URL from Rioux hosting.</figcaption></figure><h2 id="How_to_use">How to use</h2><ol><li>Download, install and run the program.</li><li>If you wish to connect to svn repositories, hosted in the Internet, and you are behind the proxy-server - do configuring the proxy host in &quot;Options&quot; dialog.</li><li>Add new project. Type the repository url, your credentials (if needed) and where to place the working copy.</li><li>After repository will checkout to selected working copy path, you can edit your project local files with any editors your prefer.</li><li>When some editions complete, back to project window and observe your modifications. Use &quot;Commit&quot; command to send (publishing) all modifications <strong>to</strong> repository. Use &quot;Update&quot; command to take all modification <strong>from</strong> repository (made from other people).</li><li>Use the &quot;View log&quot; (&quot;View item log&quot;) command to see whole history of committed (saved to repository) modifications for your project (or selected file).</li></ol><h2 id="Handle_CAD_files">Handle CAD file versions and revisions</h2><p>With &quot;Version Control for engineers&quot; you can handle file versions and revisions for most of desktop CAD/CAM systems. Here some advice for you:</p><ul><li>Take care about all files of your project are stored in working copy.</li><li>Do not rename the modified files with <code>_v1</code>, <code>_final</code> or some such markers in file name. VCE system will trace all modifications and store it in <i>way-back machine</i> easily, if you do not rename the files. Just commit it periodically.</li><li>Use relative file paths in file links of your drawings (<code>&quot;..\assembly\parts\AA1&quot;</code> instead <code><strike>&quot;d:\work\user\project53\assembly\parts\AA1&quot;</strike></code>).</li></ul><h2 id="Image_diff">Image diff (compare for technical visuals)</h2><p>One of the most wanted function for revision control of technical drawings - visual compare.<p><p>VCE gives the dual and triple view of original, modified and compared image, with zoom and scroll synchronization.</p><figure><img src="img/2015-09-18 18_24_23-Diff.png" alt="" /><figcaption>Original and modified image (fit to window size).</figcaption></figure><figure><img src="img/2015-09-18 18_17_12-Diff compare.png" alt="" /><figcaption>Original, modified and compared image (fit to window size, difference is highlighted with red)</figcaption></figure><figure><img src="img/2015-09-18 18_38_20-Diff compare original size.png" alt="" /><figcaption>Original, modified and compared image (in original size, difference is highlighted with red)</figcaption></figure><h2 id="Visio_diff">Image diff for MS Visio drawings</h2><p>MS Visio (if installed) document comparison for .vsd .vdx and .vdw files in Diff and Resolve dialogs. Page difference are marked with red. Base, modified and compare image scrolling are synchronized.</p><p>If Visio document contain several page then page navigation are synchronized too (by internal Visio page ID, independent for page renaming and reordering).</p><p><img src="img/v0.15/2016_02_03_Diff for MS Visio example.png" alt="" /></p>
 
   </div>
   <div id="sidebar">
-    <h3>About</h3>
-    <p class="about"> We are develop the collaboration tool for engineers - version control system </p>
-    <h3>Support</h3>
-    <ul>
-      <li><a href="https://www.facebook.com/PostPDM"><span>&raquo;</span> Facebook page</a></li>
-      <li><a href="https://sourceforge.net/p/postpdm/forum/general/"><span>&raquo;</span> Forum on Sourceforge</a></li>
-    </ul>
-    <h3>Products</h3>
-    <ul>
-      <li><a href="index.html"><span>&raquo;</span> Version Control for engineers</a></li>
-      <li><a href="visio2image.html"><span>&raquo;</span> Visio to image batch converter</a></li>      
-    </ul>    
-    <h3>Links</h3>
-    <ul>
-      <li><a href="http://subversion.apache.org/"><span>&raquo;</span> Apache&trade; Subversion&reg;</a></li>      
-      <li><a href="https://en.wikipedia.org/wiki/Revision_control"><span>&raquo;</span> Revision control on Wikipedia</a></li>
-    </ul>
+  
+    <h3>About</h3>    <p class="about"> We are develop the collaboration tool for engineers - version control system </p>    <h3>Support</h3>    <ul>      <li><a href="https://www.facebook.com/PostPDM"><span>&raquo;</span> Facebook page</a></li>      <li><a href="https://sourceforge.net/p/postpdm/forum/general/"><span>&raquo;</span> Forum on Sourceforge</a></li>    </ul>    <h3>Products</h3>    <ul>      <li><a href="index.html"><span>&raquo;</span> Version Control for engineers</a></li>      <li><a href="visio2image.html"><span>&raquo;</span> Visio to image batch converter</a></li>          </ul>        <h3>Links</h3>    <ul>      <li><a href="http://subversion.apache.org/"><span>&raquo;</span> Apache&trade; Subversion&reg;</a></li>            <li><a href="https://en.wikipedia.org/wiki/Revision_control"><span>&raquo;</span> Revision control on Wikipedia</a></li>    </ul>
+  
   </div>
 </div>
 
