@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<catalog>
+
+<repository>
+<name>Demo project</name>
+<url>https://github.com/postpdm/VCE_PostPDM_demo</url>
+<description>Demo project for VCE. Hosted on GitHub</description>
+</repository>
+
+<repository>
+<name>Project without URL</name>
+<url></url>
+<description>Project without URL. Should not go to list.</description>
+</repository>
+
+<repository>
+<name>Project with wrong URL</name>
+<url>some path</url>
+<description>Project with wrong URL. Should not go to list.</description>
+</repository>
+
+</catalog>
