@@ -34,9 +34,9 @@
 	</Company_Info>
 	<Program_Info>
 		<Program_Name>Version Control for engineers</Program_Name>
-		<Program_Version>0.21</Program_Version>
-		<Program_Release_Month>1</Program_Release_Month>
-		<Program_Release_Day>09</Program_Release_Day>
+		<Program_Version>0.22</Program_Version>
+		<Program_Release_Month>5</Program_Release_Month>
+		<Program_Release_Day>26</Program_Release_Day>
 		<Program_Release_Year>2017</Program_Release_Year>
 		<Program_Cost_Dollars>0</Program_Cost_Dollars>
 		<Program_Cost_Other_Code />
@@ -46,7 +46,7 @@
 		<Program_Install_Support>Install and Uninstall</Program_Install_Support>
 		<Program_OS_Support>Windows2000,WinXP,Windows2003,Windows Vista Starter,Windows Vista Home Basic,Windows Vista Home Premium,Windows Vista Business,Windows Vista Enterprise,Windows Vista Ultimate</Program_OS_Support>
 		<Program_Language>English</Program_Language>
-		<Program_Change_Info>Fixed error in EPS (Encapsulated PostScript) files diff view.</Program_Change_Info>
+		<Program_Change_Info>Adding project dialog is improved. Added GitHub user integration</Program_Change_Info>
 		<Program_Specific_Category>Graphics</Program_Specific_Category>
 		<Program_Category_Class>Graphic Apps::CAD</Program_Category_Class>
 		<Program_System_Requirements>Windows</Program_System_Requirements>
@@ -95,7 +95,7 @@ With 'Version Control for engineers' you can handle file versions and revisions 
 			<Application_XML_File_URL>http://soft.postpdm.com/pad/Version_Control_for_engineers_pad.xml</Application_XML_File_URL>
 		</Application_URLs>
 		<Download_URLs>
-			<Primary_Download_URL>https://bitbucket.org/yncoder/naiveshark/downloads/vce_setup_0.21.exe</Primary_Download_URL>
+			<Primary_Download_URL>https://bitbucket.org/yncoder/naiveshark/downloads/vce_setup_0.22.exe</Primary_Download_URL>
 			<Secondary_Download_URL />
 			<Additional_Download_URL_1 />
 			<Additional_Download_URL_2 />
